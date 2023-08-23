@@ -1,0 +1,282 @@
+/*Extra small device (portrait phone, less then 576px)*/
+@media (max-width: 575.98px) {
+
+ /*header start*/
+ header{
+   padding: 0 0;
+}
+
+.logo{
+  width: 180px;
+}
+
+.menu ul li a{
+    margin-bottom: 10px;
+    padding: 0 10px !important;
+}
+/*banner start*/
+.banner{
+  padding-bottom:45px ;
+}
+.b_text{
+   text-align: center;
+}
+.b_h1{
+   padding:  0 ;
+   font-size: 30px;
+   line-height: 40px;
+}
+.b_p2{
+   padding:0;
+   line-height: 30px;
+}
+
+.b_img{
+  margin-bottom: 20px ;
+  padding: 0;
+}
+
+.b_link{
+   margin:15px auto 0;
+}
+/*feature start  */
+.c_padd{
+ padding-bottom: 45px !important; 
+}
+.s_feature{
+  margin-top: 24px !important;
+}  
+.s_img img{
+   width: 60px;
+   height: 70px;
+}
+
+/*course start*/
+.c_h1{
+   font-size: 25px;
+}
+.c_item {
+    margin: 30px 0 0;
+    padding: 10px 10px 15px;
+}
+.c_h2{
+   font-size: 20px;
+}
+.c_left ul li img, .c_right ul li img {
+    width: 20px !important;
+}
+
+.c_left ul li span, .c_right ul li span
+{
+   font-weight: 400;
+}
+.cli:not(:last-child) {
+    margin-right: 0px !important;
+}
+
+/*testimoni start*/
+.t_item{
+   margin-top:30px;
+}
+.t_img{
+    padding: 0 40px 25px;
+}
+.t_text{
+    text-align: center;
+}
+/*footer top start*/
+.ft_details{
+   padding-right: 120px;
+}
+/*footer top start*/
+.footer_top{
+   padding: 55px 0 20px !important;
+   text-align: center;
+}
+.ft_details{
+   margin-bottom: 35px;
+   padding-right:0px;
+}
+.ft_links{
+   margin-bottom: 35px;
+}
+
+}
+
+/*small device (portrait phone, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+ 
+ /*header start*/
+ header{
+   padding: 5px 0;
+}
+
+.menu ul li a{
+    margin-bottom: 15px;
+    padding: 0 10px !important;
+}
+/*banner start*/
+.b_text{
+   text-align: center;
+}
+.b_h1{
+   padding:0 100px 0 ;
+   font-size: 37px;
+   line-height: 48px;
+}
+.b_p2{
+   padding:0 45px 0;
+   line-height: 30px;
+}
+
+.b_img{
+  margin-bottom: 30px ;
+  padding: 0 20px;
+}
+
+.b_link{
+   margin:15px auto 0;
+}  
+/*feature start  */
+.c_padd{
+ padding-bottom: 60px; 
+}
+.s_feature{
+  margin-top: 24px !important;
+}
+/*course start*/
+.c_h1{
+   font-size: 25px;
+} 
+.c_item{
+   margin: 30px 60px 0;
+   padding: 20px 15px 25px;
+}
+
+/*testimoni start*/
+.t_item{
+   margin-top:20px;
+}
+.t_img{
+    padding: 0 198px 25px;
+}
+.t_text{
+    text-align: center;
+}
+/*footer top start*/
+.footer_top{
+    text-align: center;
+}
+.ft_details{
+    margin-bottom: 35px;
+   padding-right: 70px;
+   padding-left: 70px;
+}
+
+
+}
+/*Medium device (tablets, 568px and up )*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/*header start*/
+.menu ul li a{
+    margin-bottom: 15px;
+    padding: 0 10px !important;
+}
+/*banner start*/
+.b_text{
+   text-align: center;
+}
+.b_h1{
+   padding:0 100px 0 ;
+}
+.b_p2{
+   padding:0 110px 0;
+}
+
+.b_img{
+  margin-bottom: 30px ;
+  padding: 0 100px;
+}
+
+.b_link{
+   margin:15px auto 0;
+} 
+/*feature start  */
+.c_padd{
+ padding-bottom: 80px; 
+}
+.s_feature{
+  margin-top: 24px !important;
+}
+
+/*testimoni start*/
+.t-item{
+   margin-top:40px !important;
+}
+/*footer top start*/
+.footer_top{
+    text-align: center;
+}
+.ft_details{
+   margin-bottom: 35px;
+   padding-right: 80px;
+   padding-left: 80px;
+}
+
+/*course start*/
+.c_item {
+    margin: 40px 100px 0;
+}
+
+}
+/*Large device (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*banner start*/
+.b_h1{
+   padding-right: 50px;
+} 
+
+/*coruse start*/
+.c_item {
+    padding: 25px 15px 30px;
+}
+
+.c_left ul li img, .c_right ul li img {
+    width: 20px !important;
+}
+
+.c_left ul li span, .c_right ul li span
+{
+   font-weight: 400;
+}
+.cli:not(:last-child) {
+    margin-right: 0px !important;
+}
+
+}
+/*X-Large device (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+/*XX-Large device (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+/*  banner start*/
+.b_h1{
+    padding-right: 121px;
+}
+.b_p2{
+    padding-right: 137px;
+}
+/*feature start*/
+.s_feature {
+   padding: 65px 0 60px;
+
+}
+/*footer top start*/
+.ft_details{
+   padding-right: 130px;
+}
+
+}
